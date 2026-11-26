@@ -29,7 +29,7 @@ jobs:
     - name: Checkout oddsy-data Repo
       uses: actions/checkout@v4
       with:
-        repository: camelbox27-lab/oddsy-data
+        repository: karakaskemal26/wondiyo-data
         token: ${{ secrets.ODDSY_DATA_TOKEN }}
         path: oddsy-data
 

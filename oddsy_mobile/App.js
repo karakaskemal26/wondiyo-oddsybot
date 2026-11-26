@@ -5,7 +5,7 @@ import { Play, Terminal, Activity, Cpu, Github } from 'lucide-react-native';
 // ==========================================
 // AYARLAR (Burayı KENDİ BİLGİLERİNLE Doldur)
 // ==========================================
-const DEFAULT_REPO = 'camelbox27-lab/oddsybot'; // Repo Adı
+const DEFAULT_REPO = 'karakaskemal26/wondiyo-oddsybot'; // Repo Adı
 const DEFAULT_TOKEN = ''; // <-- TOKEN'I BURAYA YAPIŞTIR (örn: 'ghp_Ax7...')
 // ==========================================
 
@@ -85,7 +85,7 @@ export default function App() {
             <Github color="#94a3b8" size={20} />
             <TextInput
               style={styles.input}
-              placeholder="camelbox27-lab/oddsybot"
+              placeholder="karakaskemal26/wondiyo-oddsybot"
               placeholderTextColor="#475569"
               value={repoName}
               onChangeText={setRepoName}
